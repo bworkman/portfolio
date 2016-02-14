@@ -1,0 +1,243 @@
+/************* GENERAL *******************/
+*{
+  font-family: Lobster, sans-serif;
+}
+h1{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 2em;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+h3 {
+  margin: 0 0 0 30%;
+  padding: 0;
+  color: white;
+}
+
+h4 {
+  color: white;
+  font-size: 1.5em;
+}
+
+p {
+  color: white;
+  font-size: 1.3em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  /*background-image: url('../img/wood.jpg');
+  background-image:linear-gradient(black, transparent);
+  background-image:linear-gradient(to top, white, transparent);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;*/
+  max-width: 100%;
+  max-height: 100%;
+
+  background: linear-gradient(#000, transparent 90%),
+                linear-gradient(0deg, dimgrey, transparent),
+                #000 url('../img/wood.jpg') no-repeat center;
+
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/************* MAIN HEADER *******************/
+
+.main-header {
+  color: white;
+  background-color: black;
+  border-bottom: 1px solid dimgrey;  
+} 
+
+.main-header p {
+  text-align: center;
+  color: dimgrey;
+}
+
+/************* MENU *******************/
+
+.menu {
+  margin: 0;
+  padding: 0;
+  max-width: 60px;
+  
+}
+.menu-items {
+  display: none;
+  max-width: 100px;
+  float: left;
+  background-color: dimgrey;
+  padding: 1em 2em;
+  margin: 0;
+  border-radius: 0 0 10px;
+  position: absolute;
+}
+
+.menu-items ul {
+  color: white;
+  list-style: none;
+  margin: auto;
+  padding: 5%;
+}
+
+.menu-items li {
+  margin: .25em 0;
+  padding: 0;
+  text-align: center
+  
+}
+/************* CONTENT *******************/
+
+.content ul {
+  margin: 2% auto;
+  padding: 0;
+  clear:both;
+  list-style: none;
+  
+}
+.portfolio-img {
+  max-width: 45%;
+  max-height: auto;
+  float: left;
+  margin: 2.5%;
+  border-radius: 20px;
+}
+
+.content li:nth-child(3n) {
+    clear:left;
+  }
+
+/************* FOOTER *******************/
+
+footer {
+  clear: both;
+  font-size: .75em;
+  color: white;
+  padding: 2em 0;
+  text-align: center; 
+  background-color: dimgrey;
+  bottom: 0;
+  left: 0;
+}
+
+
+/************* ABOUT *******************/
+
+.profile-pic img{
+  display: block;
+  margin: 2% auto;
+  height: 300px;
+  width: auto;
+  border-radius: 10px;
+}
+
+.columns {
+  margin-top: 1000px;
+  margin: 0 2.5%;
+  height: 100%;
+}
+
+.columns ul {
+  padding-left: 0;
+  margin-left: 0;
+}
+.column1 {
+  float: left;
+  max-width: 45%;
+  margin: 2.5%;
+}
+
+.column2 {
+  float: left;
+  max-width: 45%;
+  margin: 2.5%;
+}
+
+
+/************* ABOUT *******************/
+
+.details li {
+  list-style: none;
+  color: white;
+  font-size: 1.3em;
+}
+
+
+/************* MEDIA QUERIES *******************/
+
+@media (max-width: 480px) {
+  
+  .column1 {
+    max-width: 100%;
+  }
+  .column2 {
+    max-width: 100%;
+  }
+  
+  .portfolio-img {
+    max-width: 90%;
+    margin: 2% 5%;
+  }
+  
+  .profile-pic img{
+    height: 200px;
+  }
+  
+  h4 {
+    margin: 0 auto auto;
+  }
+  
+  .menu {
+    
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .menu h3 {
+    margin: 0 2%;
+  }
+  
+  .menu-items {
+    display: inline-block;
+    width: 100%;
+    height:4%;
+    max-width: 100%;
+    float: none;
+    background-color: dimgrey;
+    padding: 0;
+    border-radius: 0;
+    position: inherit;
+    text-align: center;
+  }
+  
+  .menu-items ul{
+    padding: 0;
+    margin: 0 0 3% 0;
+  }
+  
+  .menu-items li {
+    display:inline-block;
+    margin: 0 5%;
+  }
+}
+
