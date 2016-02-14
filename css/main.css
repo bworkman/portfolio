@@ -182,6 +182,10 @@ footer {
   font-size: 1.3em;
 }
 
+.resume {
+  text-decoration: underline;
+}
+
 
 /************* MEDIA QUERIES *******************/
 
