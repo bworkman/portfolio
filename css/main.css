@@ -185,7 +185,7 @@ footer {
 
 /************* MEDIA QUERIES *******************/
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   
   .column1 {
     max-width: 100%;
