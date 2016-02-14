@@ -9,7 +9,7 @@ include('inc/header.php');
       <li><a href='https://github.com/bworkman/sox_page'><img src="img/soxpage.png" class= 'portfolio-img'></a></li>
       <li><a href='https://github.com/bworkman/Homework'><img src="img/addressbook.png" class= 'portfolio-img'></a></li>
       <li><a href='https://github.com/bworkman/sales_assist'><img src="img/salesassist.png" class= 'portfolio-img'></a></li>
-      <li><a href='#'><img src="img/portfolio.png" class= 'portfolio-img'></a></li>
+      <li><a href='https://github.com/bworkman/portfolio'><img src="img/portfolio.png" class= 'portfolio-img'></a></li>
 
     </ul>
   </section>

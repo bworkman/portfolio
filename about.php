@@ -15,7 +15,7 @@ include('inc/header.php');
       </section>
 
       <section class='column2'>
-        <h4>Resume</h4>
+        <h4><a href="img/resume.pdf">Resume</a></h4>
         <p>To see more of my work experience check out my <a href="img/resume.pdf">resume</a>.</p>
       </section>
     </div>  
