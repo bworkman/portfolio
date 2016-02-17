@@ -7,7 +7,7 @@ include('inc/header.php');
   <div class='columns'>
     <section class='column1'>
       <h4>General Info</h4>
-      <p>I am currently looking to obtain development work.  I can be contacted best by phone or text.</p>
+      <p>I am currently looking to obtain a development job.  I am a hard worker and quick learner.  If you have the opportunity that I'm looking for, I can be contacted by phone, text, or email.</p>
     </section>
     <section class='column2 details'>
       <h4>Details</h4>

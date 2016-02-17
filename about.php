@@ -11,7 +11,7 @@ include('inc/header.php');
     <div class='columns'>
       <section class='column1'>
         <h4>About Me</h4>
-        <p>Currently I am the Office Manager at Cintas Corporation.  I have been learning and developing for the past year and a half.  I am have worked with HTML, CSS, JavaScript, Ruby, and PHP.  I look forward to landing my first development job where I can grow and stretch my wings as a dev.</p>
+        <p>Currently I am the Office Manager at Cintas Corporation.  I have been learning and developing for the past year and a half.  I am have worked with HTML, CSS, JavaScript, Ruby, and PHP.  I look forward to landing my first development job where I can grow and stretch my wings as a dev. When not at work or coding, I enjoy spending time with my family, playing softball, wakeboarding, snowboarding, and taking on random woodworking projects.</p>
       </section>
 
       <section class='column2'>
